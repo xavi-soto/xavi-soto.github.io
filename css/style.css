@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 90vh; /* Ajusta la altura según tus necesidades */
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff; /* Color blanco de fondo */
+}
+
+.imagen {
+    width: 40%; /* La imagen ocupará el ancho completo del contenedor */
+    max-width: 100vw; /* Asegura que la imagen no sea más ancha que la pantalla */
+    height: auto;
+}
+
+.imagen-superior {
+    margin-bottom: 5px; /* Espaciado entre la imagen superior e inferior */
+}
+.imagen-bajo {
+    width: 35%; /* Ajusta el tamaño según tus preferencias */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que la pantalla */
+    height: auto;
+    margin-top: 20px; /
+}
+
+.imagen-inferior {
+    width: 15%; /* Ajusta el tamaño según tus preferencias */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que la pantalla */
+    height: auto;
+    margin-top: 80px; /* Puedes ajustar el espacio desde la parte superior */
+}
+
+.parpadeo {
+    animation: parpadeo 1s infinite; /* Animación de 1 segundo, infinita veces */
+}
+
+@keyframes parpadeo {
+    0%, 100% {
+        opacity: 1; /* Totalmente visible */
+    }
+    50% {
+        opacity: 0; /* Totalmente invisible */
+    }
+}
+
+.pie-pagina {
+    width: 90%; /* La imagen ocupará el ancho completo del contenedor */
+    max-width: 100vw; /* Asegura que la imagen no sea más ancha que la pantalla */
+    height: auto;
+    
+    margin-top: 2px; /* Espaciado desde la parte superior */
+}
+
+
+/* Estilo específico para la imagen GIF3.gif */
+.gif3-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 18%;
+    background-color: #fff;
+    min-height: 60%; /* Ajusta según tus necesidades */
+}
+
+.gif3 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 111;
+    /* Agrega estilos adicionales según tus necesidades */
+}
+/* Estilo específico para la imagen "flecha.png" */
+.flecha-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 150px; /* Ajusta según tus necesidades */
+}
+
+.flecha {
+    width: 10%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* Agrega estilos adicionales según tus necesidades */
+}
+
+/* Estilo específico para la imagen "flecha2.png" */
+.flecha2-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 150px; /* Ajusta según tus necesidades */
+}
+
+
+/* Estilo específico para la imagen "texto patio.png" en texto.html */
+.texto-patio-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-left: 4%;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 110px; /* Ajusta según tus necesidades */
+}
+
+.texto-patio {
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 91px;
+    /* Agrega estilos adicionales según tus necesidades */
+}
+
+/* Estilo específico para la imagen "resumen proyecto.png" en texto.html */
+.resumen-proyecto-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 150px; /* Ajusta según tus necesidades */
+}
+
+.resumen-proyecto {
+    width: 90%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    /* Agrega estilos adicionales según tus necesidades */
+}
+
+/* Estilo específico para la imagen "GIF1.gif" en cuadros.html */
+.gif1-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 150px; /* Ajusta según tus necesidades */
+}
+
+.gif1 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 320px;
+    /* Agrega estilos adicionales según tus necesidades */
+}
+
+.gif2-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    min-height: 150px; /* Ajusta según tus necesidades */
+}
+
+.gif2 {
+    width: 600%;
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+    /* Agrega estilos adicionales según tus necesidades */
+}
+
+.contenedor-imagen-cambiable {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 33.33vh; /* Divide la pantalla en tres partes */
+    background-color: #fff; 
+    min-height: 70%;/* Color blanco de fondo para el contenedor específico */
+}
+
+.cambio-imagen {
+    width: 60%; /* La imagen cambiable ocupará el ancho completo del contenedor específico */
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que el contenedor */
+    height: auto;
+    margin-top: 15px;
+}
+
+
+.gif4-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 100vh; /* Cubre toda la altura de la pantalla */
+    width: 100vw; /* Cubre toda el ancho de la pantalla */
+    min-height: 20%;
+}
+
+.gif4 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    margin-top: 5px;/* Cubre completamente el contenedor, puede recortar la imagen */
+    /* Agrega estilos adicionales según tus necesidades */
+}
+
+.gif5-contenedor {
+    position: fixed; /* Hace que el contenedor sea fijo en la ventana */
+    top: 0; /* Coloca el contenedor en la parte superior */
+    left: 0; /* Coloca el contenedor en el extremo izquierdo */
+    right: 0; /* Coloca el contenedor en el extremo derecho */
+    bottom: 0; /* Coloca el contenedor en la parte inferior */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    height: 240vh; /* Cubre toda la altura de la pantalla */
+    width: 100vw; /* Cubre toda el ancho de la pantalla */
+    margin-top: -520px; /* Ajusta el espacio superior para bajar el GIF5.gif */
+    margin-bottom: 0; /* Elimina el margen inferior */
+}
+
+.gif5 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Cubre completamente el contenedor, puede recortar la imagen */
+    /* Agrega estilos adicionales según tus necesidades */
+}
